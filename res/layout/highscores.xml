@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Highscores" >
+
+  <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/highscoresTitle"
+        android:layout_marginTop="42dp"
+        android:orientation="horizontal" > 
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/highscoresTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/high_scores" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="#D31A2B"
+        android:paddingBottom="16px"
+        android:paddingLeft="16px"
+        android:paddingRight="16px"
+        android:paddingTop="16px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back" />
+
+</RelativeLayout>
